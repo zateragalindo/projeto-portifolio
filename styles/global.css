@@ -27,10 +27,20 @@
   --asap-size-md: 600 24px/120% var(--font-Asap);
   --asap-size-sm: 600 16px/120% var(--font-Asap);
 
-  --font-Inconsolata: font-family: "Inconsolata", monospace;
-  --inconsolata-size-subtitle: 400 20px/130% var(--font-Inconsolata);
+  --font-Inconsolata:  "Inconsolata", monospace;
+  --inconsolata-size-subtitle: 400 20px/120% var(--font-Inconsolata);
 
-  --font-MavenPro: font-family: "Maven Pro", system-ui;
+  --font-MavenPro: "Maven Pro", system-ui;
   --mavenpro-size-md: 400 16px/140% var(--font-MavenPro);
   --mavenpro-size-sm: 400 14px/140% var(--font-MavenPro);
+}
+
+body {
+  max-width: 1366px;
+  margin: 0 auto;
+  background-color: var(--gray-200);
+}
+
+a {
+  text-decoration: none;
 }
