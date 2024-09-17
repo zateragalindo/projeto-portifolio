@@ -36,7 +36,6 @@
 }
 
 body {
-  max-width: 1366px;
   margin: 0 auto;
   background-color: var(--gray-200);
 }
