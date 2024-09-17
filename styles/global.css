@@ -24,8 +24,8 @@
   /* Fonts */
   --font-Asap: "Asap", sans-serif;
   --asap-size-lg: 600 56px/120% var(--font-Asap);
-  --asap-size-md: 600 24px/120% var(--font-Asap);
-  --asap-size-sm: 600 16px/120% var(--font-Asap);
+  --asap-size-md: 500 24px/120% var(--font-Asap);
+  --asap-size-sm: 400 16px/120% var(--font-Asap);
 
   --font-Inconsolata:  "Inconsolata", monospace;
   --inconsolata-size-subtitle: 400 20px/120% var(--font-Inconsolata);
